@@ -1,12 +1,14 @@
 <footer class="{{ 'fixed' if path == 'home' }} bottom-0 text-center w-full py-4">
     <small class="text-gray-500">Copyright ©
-        {{settings.name}} 
+        <a href="{{settings.repo}}" class="underline" target="_blank" rel="noopener">
+            {{settings.name}}
+        </a> 
         <script>document.write(" " + new Date().getFullYear())</script>. Made with 👉👈 by
 
         <a href="{{settings.url1}}" target="_blank" class="underline">{{settings.author1}}</a>
          & 
         <a href="{{settings.url2}}" target="_blank" class="underline">{{settings.author2}}</a>
-        
+
         <!-- • -->
         <!-- <a href="{{settings.repo}}" class="underline" target="_blank" rel="noopener">View on Github</a> -->
     </small>

@@ -1,10 +1,8 @@
 ---
 items:
-  - text: Menu One
+  - text: About
     url: "#"
-  - text: Menu Two
+  - text: Cute Date Ideas
     url: "#"
-  - text: Menu Three
+  - text: Contribute
     url: "#"
-  - text: Blog
-    url: "/blog"
